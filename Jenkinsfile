@@ -6,7 +6,7 @@ pipeline {
             steps {
                 echo 'Checking out code from GitHub...'
             }
-        }
+        } 
 
         stage('Run Python') {
             steps {
